@@ -1,0 +1,15 @@
+html {
+    /* for sticky footer */
+    position: relative;
+    min-height: 100%;
+}
+
+.footer {
+    /* sticky footer */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; /* Set the fixed height of the footer here */
+    line-height: 2.5rem; /* Vertically center the text there */
+    background-color: #eeeeee;
+}
